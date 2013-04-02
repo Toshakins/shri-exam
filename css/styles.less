@@ -1,0 +1,25 @@
+.reset() {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #262626;
+	.reset;
+}
+
+.thumbs {
+	white-space: nowrap;
+	list-style-type: none;
+	overflow: hidden;
+	.reset;
+	li {
+		display: inline-block;
+		margin: 0 5px;
+		vertical-align: middle;
+	}
+	img {
+		crop: contain;
+		height: 100px;
+	}
+}
